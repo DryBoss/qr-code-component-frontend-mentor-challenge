@@ -1,0 +1,40 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d6e2f0;
+}
+
+.component {
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+img {
+ width: 260px;
+ margin: 0 0 10px 0;
+ border-radius: 10px;
+}
+
+p {
+  color: #7b879d;
+  margin: 0 0 10px 0;
+}
+
+h3{
+  margin: 0 0 10px 0;
+}
